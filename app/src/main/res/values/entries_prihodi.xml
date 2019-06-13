@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+        <string-array name="entries_prihodi">
+            <item>Izaberite kategoriju:</item>
+            <item>Redovna plaća</item>
+            <item>Isplata honorara</item>
+            <item>Isplata dividendi</item>
+            <item>Dječji doplatak</item>
+            <item>Povrat poreza</item>
+            <item>Prihodi od nekretnina</item>
+            <item>Ostali prihodi</item>
+        </string-array>
+
+    </resources>

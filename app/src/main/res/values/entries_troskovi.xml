@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entires_troskovi">
+        <item>Izaberite kategoriju:</item>
+        <item>Mjesečne režije</item>
+        <item>Štednja</item>
+        <item>Kućne potrepštine</item>
+        <item>Osobne potrepštine</item>
+        <item>Porezi i prirezi</item>
+        <item>Razonoda</item>
+        <item>Ostalo</item>
+    </string-array>
+
+</resources>

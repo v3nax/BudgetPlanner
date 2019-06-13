@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BudgetPlanner3</string>
+    <string name="prihodi_naslov">Prihodi</string>
+    <string name="troskovi_naslov">Troškovi</string>
+    <string name="dobrodosli">Dobrodošli!</string>
+    <string name="odabir_teme">Odaberi temu:</string>
+</resources>

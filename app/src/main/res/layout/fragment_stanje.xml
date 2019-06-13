@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:padding="6dip">
+
+    <LinearLayout
+        android:id="@+id/lin_lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prihodi_naslov"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listaP"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:background="#FF98E7A7" />
+
+        <TextView
+            android:id="@+id/tvIznosP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF50C372"
+            android:gravity="start"
+            android:padding="6dip" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin_lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/troskovi_naslov"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listaT"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:background="#FFF7A9AE" />
+
+        <TextView
+            android:id="@+id/tvIznosT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD5545D"
+            android:gravity="start"
+            android:padding="6dip" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
